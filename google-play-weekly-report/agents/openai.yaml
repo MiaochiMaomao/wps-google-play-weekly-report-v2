@@ -1,0 +1,5 @@
+interface:
+  display_name: "Google Play Weekly Report"
+  short_description: "Build a configurable Google Play rating and review report"
+  default_prompt: "Use $google-play-weekly-report with my previous DOCX, processed XLSX, and local JSON configuration to create this period's Google Play report."
+

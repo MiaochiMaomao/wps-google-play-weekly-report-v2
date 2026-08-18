@@ -1,0 +1,66 @@
+{
+  "period": {
+    "start": "<YYYY-MM-DD>",
+    "end": "<YYYY-MM-DD>",
+    "require_every_date": null
+  },
+  "workbook": {
+    "all_reviews": {
+      "sheet": "<ALL_REVIEWS_SHEET>",
+      "columns": {
+        "version": "<VERSION_COLUMN>",
+        "date": "<DATE_COLUMN>",
+        "rating": "<RATING_COLUMN>",
+        "review": "<REVIEW_TEXT_COLUMN>"
+      }
+    },
+    "classified_reviews": {
+      "sheet": "<CLASSIFIED_REVIEWS_SHEET>",
+      "columns": {
+        "date": "<DATE_COLUMN>",
+        "rating": "<RATING_COLUMN>",
+        "category": "<CATEGORY_COLUMN>",
+        "original": "<ORIGINAL_TEXT_COLUMN>",
+        "translation": "<TRANSLATION_COLUMN>"
+      }
+    }
+  },
+  "classification": {
+    "categories": [],
+    "subcategory_columns": {},
+    "representative_category": "<CATEGORY_LABEL>"
+  },
+  "metrics": {
+    "low_ratings": [],
+    "high_ratings": [],
+    "version_scope": "<comments_or_ratings>",
+    "version_min_comments": null,
+    "version_top_n": null,
+    "version_sort": [],
+    "issue_top_n": null,
+    "representative_comment_min_chars": null,
+    "representative_comment_max_chars": null
+  },
+  "console": {
+    "rating_fields": [],
+    "rating_countries": [],
+    "review_countries": [],
+    "release_fields": []
+  },
+  "charts": {
+    "major_title": "Category distribution",
+    "subcategory_title": "Subcategory distribution",
+    "monthly_title": "Monthly Google Play rating trend",
+    "monthly_x_label": "Month"
+  },
+  "format": {
+    "score_decimals": 3,
+    "percentage_decimals": 2,
+    "unavailable_marker": "—"
+  },
+  "report": {
+    "title": "<REPORT_TITLE>",
+    "output_filename": "<OUTPUT_FILENAME>.docx"
+  }
+}
+
